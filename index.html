@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cartão de Visitas Digital</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            height: 100vh;
+            width: 100vw;
+            font-family:Georgia, 'Times New Roman', Times, serif;
+            background-color: #120927;
+            color:white;
+            padding: 20px 50px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .visit-card {
+            display:flex;
+            align-items: center;
+            column-gap: 20px;
+            background: #1a0a3dab;
+            padding: 20px;
+            border:2px solid #391985 ;
+            border-radius: 12px;
+            height: 300px;
+            border-radius: 12px;
+        }
+        .visit-card img{
+            height: 250px;
+            width: 250px;
+            border-radius: 50%;
+            border: 5px solid #c9a0dc;
+        }
+        .visit-card h1 {
+            margin-bottom: 10px;
+        }
+        .visit-card h3{
+            margin-bottom: 10px;
+            color: #c9a0dc;
+        }
+        .info-contato{
+            margin-top: 15px;
+        }
+        .info-contato p{
+            margin-bottom: 10px;
+            font-size: 14px;
+        }
+        .links{
+            margin-top: 15px;
+            display: flex;
+            gap: 15px;
+        }
+        .links img{
+            width: 30px;
+            height: 30px;
+        }
+        footer{
+            margin-top: 20px;
+            text-align: center;
+            font-size: 14px;
+            color: #c9a0dc;
+        }
+    </style>
+</head>
+<body>
+    <div class="visit-card">
+        <img src="./perfil/perfil2.jpg" alt="Foto de Perfil">
+        <div class="descrição">
+            <h1>Yasmin Oliveira</h1>
+            <h3>Designer</h3>
+            <div class="info-contato">
+                <p>Telefone: (55) 85 91550599</p>
+                <p>Email: yasminoliveira072211@gmail.com</p>
+            </div>
+            <div class="links">
+                <a href="https://www.instagram.com/ysmin_arts/profilecard/?igsh=MTlkMXN6eHlmYTdnNA==" target="_blank">
+                    <img src="https://cdn-icons-png.flaticon.com/512/1384/1384063.png" alt="Instagram">
+                </a>
+                <a href="https://github.com/yasmin0liver/YasminOliver/blob/main/README.md" target="_blank">
+                    <img src="https://cdn-icons-png.flaticon.com/512/733/733609.png" alt="Github">
+                </a>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>© 2024 Yasmin Oliveira. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
+ 
